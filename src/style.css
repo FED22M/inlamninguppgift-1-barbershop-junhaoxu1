@@ -1,6 +1,4 @@
 header {
-    float: left;
-    width: 30%;
     background-color: azure;
 }
 
@@ -11,7 +9,6 @@ nav a {
 nav ul{
     list-style-type: none;
     display: inline-block;
-    width: 65%;
     background-color: antiquewhite;
   }
 
