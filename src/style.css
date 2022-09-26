@@ -6,11 +6,16 @@ nav a {
     text-decoration: none;
 }
 
-nav ul{
+.navbar ul li{
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     background-color: antiquewhite;
   }
+
+.title {
+  font-size: x-large;
+  margin-right: 65%;
+}
 
 main {
     margin-top: 50px;
