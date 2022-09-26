@@ -14,8 +14,8 @@ nav ul{
     width: 65%;
     background-color: antiquewhite;
   }
-  
-  main {
+
+main {
     margin-top: 50px;
   }
 
@@ -28,12 +28,12 @@ nav ul{
     display: flex;
   }
 
-  footer {
+footer {
     display: flex;
     background-color: bisque;
   }
 
-  footer ul li {
+footer ul li {
     margin-right: 50px;
   }
 
