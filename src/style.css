@@ -1,0 +1,25 @@
+header {
+    float: left;
+    width: 30%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 65%;
+  }
+  
+  nav ul li {
+    float: right;
+    margin-right: 5px;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+@media only screen and (max-width: 767px) {
+    header, nav {
+        width: 100%;
+    }
+}
