@@ -15,11 +15,6 @@ nav ul{
     background-color: antiquewhite;
   }
   
-  nav ul li {
-    float: right;
-    margin-right: 5px;
-  }
-
   main {
     margin-top: 50px;
   }
