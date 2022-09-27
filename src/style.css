@@ -97,11 +97,16 @@ main {
   .container h3, p {
     padding: 0;
     margin: 10px;
+    position: relative;
+    bottom: 35%;
   }
 
-  img {
-    width: 300px;
-    height: auto;
+  .container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40%;
   }
 
   .column {
@@ -118,11 +123,24 @@ main {
 
   .about {
     background-color: white;
+    display: flex;
   }
 
-  .about-move {
+  .about img {
+    height: 500px;
+    width: auto;
+    margin-right: 250px;
+    position: relative;
+    left: 30%;
+  }
+
+  .simple-text {
     margin: auto;
     width: 300px;
+    float: right;
+    position: relative;
+    top: 20%;
+    left: 10%;
   }
 
   .review {
