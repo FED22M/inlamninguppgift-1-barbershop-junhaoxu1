@@ -113,6 +113,8 @@ main {
 
   .about {
     background-color: white;
+    margin: auto;
+    width: 300px;
   }
 
   .review {
