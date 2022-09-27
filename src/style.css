@@ -3,7 +3,7 @@ body {
   url(../screenshots/barber.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-
+  background-blend-mode: darken;
 }
 
 header {
