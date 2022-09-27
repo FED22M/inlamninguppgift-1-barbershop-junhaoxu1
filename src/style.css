@@ -99,6 +99,11 @@ main {
     margin: 10px;
   }
 
+  img {
+    width: 300px;
+    height: auto;
+  }
+
   .column {
     background-color: #BB9257;
     width: 25%;
