@@ -35,7 +35,7 @@ a, a:active {
 
 .title {
   font-size: x-large;
-  margin-right: 40%;
+  margin-right: 35%;
   position: relative;
   left: 15%;
 }
@@ -160,6 +160,19 @@ main {
   .text-box p {
     margin: 0;
     padding: 0;
+  }
+
+  .text-box img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .icons {
+    height: 5px;
+    width:5px;
+    border-radius: 50%;
   }
 
   .reviews {
