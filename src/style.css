@@ -113,6 +113,9 @@ main {
 
   .about {
     background-color: white;
+  }
+
+  .about-move {
     margin: auto;
     width: 300px;
   }
