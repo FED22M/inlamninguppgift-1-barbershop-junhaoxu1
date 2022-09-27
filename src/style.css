@@ -7,7 +7,7 @@ nav a {
     
 }
 
-a:link {
+a, a:link, a:visited {
   color: white;
 }
 
