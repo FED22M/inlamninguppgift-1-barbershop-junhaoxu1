@@ -1,5 +1,6 @@
 header {
     background-color: black;
+    opacity: 2;
 }
 
 nav a {
@@ -11,7 +12,7 @@ a, a:link, a:visited, a:active {
   color: white;
 }
 
-a:active {
+a, a:active {
   color: orange;
 }
 
