@@ -11,6 +11,10 @@ a, a:link, a:visited, a:active {
   color: white;
 }
 
+a:active {
+  color: orange;
+}
+
 .navbar ul li{
     list-style-type: none;
     display: inline;
