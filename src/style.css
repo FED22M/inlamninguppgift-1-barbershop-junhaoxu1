@@ -97,6 +97,7 @@ main {
     padding: 0;
     margin: 10px;
     position: relative;
+    top: 125px;
   }
 
   .column {
