@@ -143,6 +143,23 @@ main {
     left: 10%;
   }
 
+  .simple-text p {
+    margin:0;
+    padding:0;
+    width: 450px;
+  }
+
+  .text-box {
+    color: white;
+    background-color: #B38544;
+    margin-top: 30px;
+  }
+
+  .text-box p {
+    margin: 0;
+    padding: 0;
+  }
+
   .review {
     background-color: aliceblue;
     display: flex;
