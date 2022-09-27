@@ -123,7 +123,8 @@ main {
 
 footer {
     display: flex;
-    background-color: bisque;
+    background-color: black;
+    color: white;
   }
 
 footer ul li {
