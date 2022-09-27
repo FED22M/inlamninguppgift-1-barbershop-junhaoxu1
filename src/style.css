@@ -85,6 +85,7 @@ main {
     text-align: center;
     color: white;
     height: 300px;
+    margin-top: 150px;
   }
 
   .container p {
@@ -95,8 +96,6 @@ main {
   .container h3, p {
     padding: 0;
     margin: 10px;
-    position: relative;
-    top: 125px;
   }
 
   .column {
