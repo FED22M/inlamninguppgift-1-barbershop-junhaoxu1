@@ -4,6 +4,11 @@ header {
 
 nav a {
     text-decoration: none;
+    
+}
+
+a:link {
+  color: white;
 }
 
 .navbar ul li{
@@ -14,7 +19,7 @@ nav a {
 
 .title {
   font-size: x-large;
-  margin-right: 55%;
+  margin-right: 50%;
 }
 
 main {
