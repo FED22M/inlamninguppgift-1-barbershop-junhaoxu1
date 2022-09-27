@@ -4,6 +4,11 @@ header {
 
 nav a {
     text-decoration: none;
+    
+}
+
+nav a:visited {
+  color: white;
 }
 
 .navbar ul li{
