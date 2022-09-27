@@ -96,7 +96,7 @@ main {
     width: 100%;
   }
 
-  .container h3, p {
+  .move-up {
     padding: 0;
     margin: 10px;
     position: relative;
@@ -162,19 +162,52 @@ main {
     padding: 0;
   }
 
+  .reviews {
+    text-align: center;
+    background-color: #EAE8DE;
+    margin:0;
+    padding:0;
+    float: left;
+    height: 450px;
+  }
+
   .review {
-    background-color: aliceblue;
     display: flex;
+    margin-top: 50px;
   }
 
 footer {
     display: flex;
     background-color: black;
     color: white;
+    float: left;
+    width: 100%;
   }
 
-footer ul li {
-    margin-right: 50px;
+  footer h3 {
+    position: relative;
+    left: 30%;
+  }
+
+  footer p {
+    position: relative;
+    left: 30%;
+    margin-right: 30px;
+  }
+
+  footer ul li {
+    margin-right: 30px;
+    position: relative;
+    left: 30%;
+  }
+
+  .points {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.17em;
+    margin-bottom: 21.33px;
+    position:relative;
+    left: 20%;
   }
 
 @media only screen and (max-width: 767px) {
