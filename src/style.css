@@ -1,16 +1,19 @@
 body {
-  background-image:url(../screenshots/barber.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), 
+  url(../screenshots/barber.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+
 }
 
 header {
     background-color: black;
-    opacity: 2;
+    opacity: 4;
 }
 
 nav a {
     text-decoration: none;
+    margin: 10px;
     
 }
 
@@ -28,9 +31,10 @@ a, a:active {
     color: white;
   }
 
+
 .title {
   font-size: x-large;
-  margin-right: 50%;
+  margin-right: 40%;
 }
 
 main {
@@ -44,6 +48,25 @@ main {
 
   .review {
     display: flex;
+  }
+
+  .under-header {
+    color: white;
+    position: relative;
+    left: 53%;
+    width: 320px;
+  }
+
+  .move {
+    margin-left: 50px;
+  }
+
+  .aligned {
+    border-left: solid orange;
+  }
+
+  .p-text {
+    width: 372px;
   }
 
 footer {
