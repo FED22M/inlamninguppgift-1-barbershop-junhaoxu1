@@ -17,7 +17,7 @@ nav a {
     
 }
 
-a, a:link, a:visited, a:active {
+a, a:link, a:visited{
   color: white;
 }
 
@@ -41,20 +41,17 @@ main {
     margin-top: 50px;
   }
 
-  .container {
-    display: flex;
-    background-color: aquamarine;
-  }
-
-  .review {
-    display: flex;
+  .welcome {
+    font-size: 13px;
+    color: orange;
   }
 
   .under-header {
     color: white;
     position: relative;
-    left: 53%;
+    left: 51%;
     width: 320px;
+    margin-top: 150px;
   }
 
   .move {
@@ -63,10 +60,68 @@ main {
 
   .aligned {
     border-left: solid orange;
+    border-width: thin;
   }
 
   .p-text {
     width: 372px;
+  }
+
+  .p-button{
+    border: solid orange;
+    border-width: thin;
+    text-align: center;
+    width: 200px;
+    margin-top: 25px;
+  }
+
+  .p-button a {
+    color: orange;
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    text-align: center;
+    color: white;
+    height: 300px;
+    margin-top: 150px;
+  }
+
+  .container p {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .container h3, p {
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: 125px;
+  }
+
+  .column {
+    background-color: #BB9257;
+    width: 25%;
+    padding: 25px;
+  }
+
+  .columns {
+    background-color: #B38544;
+    width: 25%;
+    padding: 25px;
+  }
+
+  .about {
+    background-color: aqua;
+    position: relative;
+    left: 52%;
+    width: 320px;
+  }
+
+  .review {
+    background-color: aliceblue;
+    display: flex;
   }
 
 footer {
