@@ -36,6 +36,8 @@ a, a:active {
 .title {
   font-size: x-large;
   margin-right: 40%;
+  position: relative;
+  left: 15%;
 }
 
 main {
