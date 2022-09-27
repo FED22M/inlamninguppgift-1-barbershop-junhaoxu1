@@ -32,6 +32,10 @@ a, a:active {
     color: white;
   }
 
+  #menu {
+    display: none;
+  }
+
 
 .title {
   font-size: x-large;
@@ -226,5 +230,14 @@ footer {
 @media only screen and (max-width: 767px) {
     header, nav, main, footer {
         width: 100%;
+    }
+
+    nav a {
+      display: none;
+    }
+
+    #menu {
+      display: block;
+      float: right;
     }
 }
