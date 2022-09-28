@@ -139,7 +139,7 @@ main {
   .about {
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content:space-around
   }
 
   #about-title1 {
@@ -154,20 +154,16 @@ main {
     font-size: 30px;
   }
 
+  .simple-text {
+    margin-top: 100px;
+    margin-right: 350px;
+  }
+
   .about-img img{
     background-color: #B38544;
     height: 600px;
     width: auto;
-    position: relative;
-    left: 30%;
-    float: left;
-  }
-
-  .simple-text {
-    width: 50%;
-    position: relative;
-    top: 15%;
-    left: 20%;
+    margin-left: 350px;
   }
 
   .simple-text p {
