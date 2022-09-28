@@ -208,11 +208,11 @@ main {
     width: 100%;
   }
 
-  #review-title {
+  .review-title h3{
     font-size: 40px;
-    font-weight: bolder;
-    margin-top: 0;
-    padding-top: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
   }
 
   .review {
