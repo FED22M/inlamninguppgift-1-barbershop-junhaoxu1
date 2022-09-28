@@ -295,27 +295,25 @@ main {
 
 footer {
     display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
     float: left;
     width: 100%;
-  }
-
-  footer h3 {
-    position: relative;
-    left: 30%;
+    text-decoration: none;
   }
 
   footer p {
-    position: relative;
-    left: 30%;
     margin-right: 30px;
   }
 
   footer ul li {
     margin-right: 30px;
-    position: relative;
-    left: 30%;
+    list-style-type: none;
+  }
+
+  footer a {
+    text-decoration: none;
   }
 
   .points {
@@ -323,8 +321,6 @@ footer {
     font-weight: bold;
     font-size: 1.17em;
     margin-bottom: 21.33px;
-    position:relative;
-    left: 20%;
   }
 
 @media only screen and (max-width: 767px) {
