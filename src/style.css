@@ -139,7 +139,7 @@ main {
   .about {
     background-color: white;
     display: flex;
-    width: 100%;
+    justify-content: center;
   }
 
   #about-title1 {
@@ -155,40 +155,37 @@ main {
   }
 
   .about-img img{
-    height: 500px;
+    background-color: #B38544;
+    height: 600px;
     width: auto;
-    margin-right: 250px;
     position: relative;
     left: 30%;
     float: left;
   }
 
   .simple-text {
-    margin: auto;
     width: 50%;
-    float: right;
     position: relative;
-    top: 20%;
+    top: 15%;
     left: 20%;
   }
 
   .simple-text p {
     margin:0;
     padding:0;
-    width: 450px;
   }
 
   .text-box {
-    float: right;
     color: white;
-    background-color: #B38544;
     margin-top: 30px;
+    background-color: #B38544;
+    width: 250px;
+    display: flex;
   }
 
   .text-box p {
     margin: 0;
     padding: 0;
-    display: inline-block;
   }
 
   .text-box img {
@@ -197,7 +194,6 @@ main {
     border-radius: 50%;
     background-color: black;
     margin: 5px;
-    float: left;
   }
 
   .icons {
@@ -310,17 +306,15 @@ footer {
   footer ul li {
     margin-right: 30px;
     list-style-type: none;
+
+  }
+
+  footer li:before {
+    content: "\25BA \0020";
   }
 
   footer a {
     text-decoration: none;
-  }
-
-  .points {
-    list-style-type: none;
-    font-weight: bold;
-    font-size: 1.17em;
-    margin-bottom: 21.33px;
   }
 
 @media only screen and (max-width: 767px) {
