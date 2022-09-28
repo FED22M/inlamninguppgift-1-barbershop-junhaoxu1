@@ -225,6 +225,7 @@ main {
 
   .review {
     display: flex;
+    justify-content: center;
     margin-top: 50px;
   }
 
@@ -237,9 +238,6 @@ main {
     background-color: white;
     display: inline;
     margin-left: 50px;
-    float: left;
-    position: relative;
-    left: 10%;
     height: 250px;
   }
 
