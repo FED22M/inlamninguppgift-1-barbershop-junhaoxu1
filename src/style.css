@@ -194,7 +194,7 @@ main {
     margin:0;
     padding:0;
     float: left;
-    height: 450px;
+    height: 550px;
     width: 100%;
   }
 
@@ -245,30 +245,25 @@ main {
   }
 
   .customer-image img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     float: left;
     margin-left: 5px;
-    margin-bottom: 5px;
   }
 
   .customer-image p {
     position: relative;
     left: 15%;
-    margin: 0;
-    padding: 0;
   }
 
   .customer-image h3 {
     display: inline-block;
-    position: relative;
-    left: 13%;
-    margin: 5px;
+    margin-left: 60px;
   }
 
   .stars img{
-    height: 20px;
+    height: 15px;
     width: auto;
     display: flex;
     position: relative;
