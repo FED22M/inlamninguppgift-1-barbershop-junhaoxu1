@@ -52,7 +52,7 @@ main {
 
   .welcome {
     font-size: 13px;
-    color: orange;
+    color: #B38544;
     font-weight: bold;
   }
 
@@ -84,7 +84,7 @@ main {
   }
 
   .p-button{
-    border: solid orange;
+    border: solid #B38544;
     border-width: thin;
     text-align: center;
     width: 200px;
@@ -92,7 +92,7 @@ main {
   }
 
   .p-button a {
-    color: orange;
+    color: #B38544;
     text-decoration: none;
   }
 
@@ -141,21 +141,34 @@ main {
     display: flex;
   }
 
-  .about img {
+  #about-title1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+  }
+
+  #about-title2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+  }
+
+  .about-img img{
     height: 500px;
     width: auto;
     margin-right: 250px;
     position: relative;
-    left: 40%;
+    left: 30%;
+    float: left;
   }
 
   .simple-text {
     margin: auto;
-    width: 300px;
+    width: 50%;
     float: right;
     position: relative;
     top: 20%;
-    left: 50%;
+    left: 20%;
   }
 
   .simple-text p {
@@ -168,11 +181,14 @@ main {
     color: white;
     background-color: #B38544;
     margin-top: 30px;
+    height: 100px;
+    padding-right: 150px;
   }
 
   .text-box p {
     margin: 0;
     padding: 0;
+    display: inline-block;
   }
 
   .text-box img {
@@ -180,6 +196,8 @@ main {
     width: 50px;
     border-radius: 50%;
     background-color: black;
+    margin: 10px;
+    float: left;
   }
 
   .icons {
@@ -260,6 +278,11 @@ main {
   .customer-image h3 {
     display: inline-block;
     margin-left: 60px;
+  }
+
+  .welcome-c {
+    font-size: 20px;
+    color: #B38544;
   }
 
   .stars img{
