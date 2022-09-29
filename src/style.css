@@ -104,16 +104,11 @@ main {
     margin-top: 150px;
   }
 
-  .container p {
-    display: inline-block;
-    width: 100%;
-  }
-
   .move-up {
     padding: 0;
     margin: 10px;
     position: relative;
-    bottom: 35%;
+    bottom: 20%;
   }
 
   .container img {
@@ -121,19 +116,30 @@ main {
     height: 150px;
     border-radius: 50%;
     position: relative;
-    bottom: 40%;
+    bottom: 25%;
+  }
+
+  .container p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
   }
 
   .column {
     background-color: #BB9257;
-    width: 25%;
-    padding: 25px;
+    flex:25%;
   }
 
   .columns {
     background-color: #B38544;
-    width: 25%;
-    padding: 25px;
+    flex: 25%;
   }
 
   .about {
@@ -351,16 +357,61 @@ footer {
  }
 
 @media only screen and (max-width: 767px) {
-    header, nav, main, footer {
-        width: 100%;
+    html, body{
+      height: 100%;
+      width: 100%; 
+      overflow-x: hidden;
+    }
+
+    header {
+      justify-content: flex-start;
+    }
+
+    header img {
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
     }
 
     nav a {
       display: none;
     }
 
-    #menu {
-      display: block;
-      float: right;
+    .row {
+      flex-direction: column;
+      float: left;
+      width: 100%;
+    }
+
+    .column, .columns {
+      flex: 100%;
+      height: 200px;
+      margin: auto;
+    }
+
+    .about {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+    }
+
+    .about-img img{
+      width: 70%;
+      margin-left: auto;
+      margin-top: 250px;
+      margin-left: 10px;
+    }
+
+    .about p{
+      margin-left: 10px;
+    }
+
+    .text-box {
+      margin-left: 10px;
+    }
+
+    footer {
+      flex-direction: column;
     }
 }
