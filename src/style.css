@@ -64,6 +64,10 @@ main {
     margin-top: 120px;
   }
 
+  .under-header h2 {
+    font-family: _Barlow Semi Condensed_;
+  }
+
   span {
     color: transparent;
       -webkit-text-stroke-width: 1px;
@@ -196,6 +200,19 @@ main {
     border-radius: 50%;
     background-color: black;
     margin: 5px;
+  }
+
+  .text-move {
+    margin-left: 20px;
+  }
+
+  #text-box-head {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .text-box-para {
+    font-weight: bold;
   }
 
   .icons {
