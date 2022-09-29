@@ -100,7 +100,7 @@ main {
     display: flex;
     text-align: center;
     color: white;
-    height: 300px;
+    height: auto;
     margin-top: 150px;
   }
 
@@ -364,7 +364,7 @@ footer {
     }
 
     header {
-      justify-content: flex-start;
+      position: fixed;
     }
 
     header img {
@@ -381,30 +381,35 @@ footer {
       flex-direction: column;
       float: left;
       width: 100%;
+      height: auto;
     }
 
-    .column, .columns {
+    .column  {
       flex: 100%;
-      height: 200px;
-      margin: auto;
+      height: 300px;
+    }
+
+    .columns {
+      flex: 100%;
+      height: 300px;
     }
 
     .about {
       flex-direction: column;
       flex-wrap: wrap;
       width: 100%;
-      margin: auto;
     }
 
     .about-img img{
-      width: 70%;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
       margin-left: auto;
-      margin-top: 250px;
-      margin-left: 10px;
     }
 
     .about p{
       margin-left: 10px;
+      height: auto;
     }
 
     .text-box {
