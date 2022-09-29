@@ -170,9 +170,7 @@ main {
   }
 
   .about-img img{
-    background-color: #B38544;
     height: 600px;
-    width: auto;
     margin-left: 350px;
   }
 
@@ -364,6 +362,10 @@ footer {
   width: 250px;
  }
 
+ .footer-h3 {
+  margin-left: 40px;
+ }
+
  .footer-phone img{
   margin-top: 3px;
   float: left;
@@ -373,7 +375,7 @@ footer {
   width: 20px;
  }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
     html, body{
       height: 100%;
       width: 100%; 
@@ -432,12 +434,11 @@ footer {
     }
 
     .about-img img{
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-      margin-left: auto;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
-
+    
     .about p{
       margin-left: 10px;
       height: auto;
@@ -451,7 +452,11 @@ footer {
       flex-direction: column;
     }
 
-    footer ul li {
-      margin-left: 0;
+    .footer-column {
+      margin-left: 20px;
+    }
+
+    .footer-last {
+      margin-left: 20px;
     }
 }
