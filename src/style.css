@@ -338,16 +338,6 @@ footer a {
   width: 30px;
 }
 
-.footer-column p {
-  margin: 0;
-  padding: 0;
-}
-
-.footer-text p {
-  margin: 0;
-  padding: 0;
-}
-
 .footer-icon img {
   float: left;
   margin-right: 8px;
@@ -365,10 +355,8 @@ footer a {
 }
 
 .footer-phone img {
-  margin-top: 3px;
   float: left;
   margin-right: 8px;
-  margin-top: 14px;
   height: 20px;
   width: 20px;
 }
@@ -457,7 +445,12 @@ footer a {
     margin-left: 20px;
   }
 
+  .footer-list {
+    margin-left: 20px;
+  }
+
   .footer-last {
     margin-left: 20px;
   }
+
 }
