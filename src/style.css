@@ -380,18 +380,32 @@ footer {
       overflow-x: hidden;
     }
 
+    body {
+      background-size: cover;
+    }
+
     header {
       position: fixed;
     }
 
     header img {
-      height: 100%;
+      height: auto;
       width: 100%;
-      overflow-x: hidden;
     }
 
     nav a {
       display: none;
+    }
+
+    .under-header {
+      position: relative;
+      left: 20%;
+    }
+
+    .aligned {
+      border: none;
+      position: relative;
+      right: 16%;
     }
 
     .row {
@@ -435,5 +449,9 @@ footer {
 
     footer {
       flex-direction: column;
+    }
+
+    footer ul li {
+      margin-left: 0;
     }
 }
