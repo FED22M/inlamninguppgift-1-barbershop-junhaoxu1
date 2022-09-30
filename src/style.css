@@ -401,13 +401,14 @@ footer a {
     display: flex;
     float: right;
     position: relative;
-    bottom: 46%;
-    right: 11.3%;
+    bottom: 66%;
+    right: 12.1%;
     color: grey;
     padding: 0;
     border: none;
     background: none;
     font-weight: bold;
+    font-size: 25px;
   }
 
   .menu-open + .menu {
