@@ -125,7 +125,7 @@ span {
   height: 150px;
   border-radius: 50%;
   position: relative;
-  bottom: 25%;
+  bottom: 20%;
 }
 
 .rows {
@@ -329,6 +329,7 @@ footer p {
 footer ul li {
   margin-right: 30px;
   list-style-type: none;
+  margin-top: 10px;
 }
 
 footer li:before {
@@ -355,10 +356,6 @@ footer a {
 
 .footer-last {
   width: 250px;
-}
-
-.footer-h3 {
-  margin-left: 40px;
 }
 
 .footer-phone img {
@@ -392,7 +389,7 @@ footer a {
   header {
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: white;
     height: 45px;
     z-index: 300;
   }
@@ -402,7 +399,7 @@ footer a {
     float: right;
     position: relative;
     bottom: 66%;
-    right: 12.1%;
+    right: 13.5%;
     color: grey;
     padding: 0;
     border: none;
@@ -421,12 +418,24 @@ footer a {
 
   .menu ul li{
     list-style-type: none;
-    background-color: black;
+    background-color: white;
     font-weight: bold;
   }
 
   .menu ul li a {
     text-decoration: none;
+  }
+
+  nav {
+    background-color: white;
+  }
+
+  .navbar ul li {
+    color: black;
+  }
+
+  .menu a:visited {
+    color: grey;
   }
 
   nav a{
@@ -504,6 +513,7 @@ footer a {
 
   .footer-h3 {
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .footer-last {
