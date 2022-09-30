@@ -406,6 +406,7 @@ footer a {
     padding: 0;
     border: none;
     background: none;
+    font-weight: bold;
   }
 
   .menu-open + .menu {
@@ -420,8 +421,18 @@ footer a {
     list-style-type: none;
   }
 
-  nav a {
+  .menu ul li a {
+    text-decoration: none;
+  }
+
+  nav a,
+  a:visited {
     display: none;
+    color: grey;
+  }
+
+  .p-button a:visited{
+    color:#b38544
   }
 
   .under-header {
