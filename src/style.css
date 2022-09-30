@@ -197,11 +197,12 @@ span {
 }
 
 .text-box img {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background-color: black;
-  margin: 5px;
+  height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+    margin: 15px 0 0 21px;
 }
 
 .text-move {
@@ -419,16 +420,16 @@ footer a {
 
   .menu ul li{
     list-style-type: none;
+    background-color: black;
+    font-weight: bold;
   }
 
   .menu ul li a {
     text-decoration: none;
   }
 
-  nav a,
-  a:visited {
+  nav a{
     display: none;
-    color: grey;
   }
 
   .p-button a:visited{
@@ -496,8 +497,17 @@ footer a {
     margin-left: 20px;
   }
 
+  .footer-list a:visited {
+    color: white;
+  }
+
+  .footer-h3 {
+    margin-top: 20px;
+  }
+
   .footer-last {
     margin-left: 20px;
+    margin-top: 20px;
   }
 
 }
