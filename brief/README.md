@@ -24,4 +24,4 @@ Det enda önskemål vi har egentligen har är att bilderna vid "våra tjänster"
 
 Jag kommer ha semester i två veckor nu så jag kan inte svara på några frågor om designen, du
 får improvisera så tar vi korret efter nyår! Men jag vet att Jenni kan hjälpa dig med de tekniska
-bitarna.
+bitarna. 

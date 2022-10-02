@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script>
+        const menuBtn = document.querySelector('#menu-button');
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('menu-open');
+    });
+    </script>
+    <title>Barbershop</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li class="title">BARBERSHOP</li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">TEAM</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <button id="menu-button">MENU</button>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">PRICING</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">TEAM</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                     </ul>
+                </div>
+        </header>
+        <main>
+            <div class="under-header">
+                <h1 class="welcome">WELCOME TO BARBERSHOP</h1>
+                <h2>WE WILL MAKE <span>YOUR STYLE</span> OF YOUR DREAMS</h2>
+                <div class="aligned">
+                    <div class="move">
+                        <p class="p-text">A small river named Duden flows by their place and
+                            supplies it with the necessary regelialia. It is a
+                            paradisematic country, in which roasted parts of
+                            sentences fly into your mouth
+                        </p>
+                        <p class="p-button"><a href="">LEARN MORE ABOUT US</a></p>
+                    </div>    
+                </div>
+            </div>
+        <div class="container">
+            <div class="rows">
+                <div class="column">
+                    <img src="../screenshots/hairstyle.jpg" alt="hairstyle">
+                    <h3 class="move-up">HAIR STYLES</h3>
+                    <p class="move-up">A small river named Duden flows by</p> 
+                    <p class="move-up">their place and supplies it with the</p>
+                    <p class="move-up">necessary regelialia. It is a</p>
+                    <p class="move-up">paradisematic country, in which roasted parts</p>
+                </div>
+                <div class="columns">  
+                    <img src="../screenshots/trim.jpg" alt="trim">
+                    <h3 class="move-up">BEARD TRIM</h3>
+                    <p class="move-up">A small river named Duden flows by</p> 
+                    <p class="move-up">their place and supplies it with the</p>
+                    <p class="move-up">necessary regelialia. It is a</p>
+                    <p class="move-up">paradisematic country, in which roasted parts</p>
+                </div> 
+                <div class="column">
+                    <img src="../screenshots/beard.jpg" alt="beard">
+                    <h3 class="move-up">HOT SHAVE</h3>
+                    <p class="move-up">A small river named Duden flows by</p> 
+                    <p class="move-up">their place and supplies it with the</p>
+                    <p class="move-up">necessary regelialia. It is a</p>
+                    <p class="move-up">paradisematic country, in which roasted parts</p>
+                </div>
+                <div class="columns">
+                    <img src="../screenshots/shampoo.jpg" alt="shampoo">
+                    <h3 class="move-up">HAIR SHAMPOO</h3>
+                    <p class="move-up">A small river named Duden flows by</p> 
+                    <p class="move-up">their place and supplies it with the</p>
+                    <p class="move-up">necessary regelialia. It is a</p>
+                    <p class="move-up">paradisematic country, in which roasted parts</p>
+                </div> 
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-img">
+                <img src="../screenshots/barbershop.jpg" alt="barber">  
+            </div>  
+            <div class="simple-text">    
+                <h1 id="about-head">ABOUT BARBER</h1>
+                <h3 id="about-title1">A SMOOTH BARBER</h3> 
+                <h3 id="about-title2">EXPERIENCE IN YOUR TOWN</h3>
+                <p>Far far away, behind the word mountains far from the,</p> 
+                <p>countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p>Seperated they live in Bookmarksgrove right at the coast of the</p> 
+                <p>Semantics, a large language ocean. A small river named</p> 
+                <p>Duden flows by their place and supplies it with the necessary</p> 
+                <p>regalialia</p>
+                <div class="text-box">
+                    <div>
+                        <img src="../screenshots/calendar.png" alt="calendar">
+                    </div>
+                    <div class="text-move">
+                        <p id="text-box-head">20</p>
+                        <p class="text-box-para">YEARS</p>
+                        <p class="text-box-para">OF EXPERIENCE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews">
+            <h2 class="welcome-review">TESTIMONIAL</h2>
+            <div class="review-title">
+                <h3>PEOPLE SAY</h3>
+                <h3>ABOUT OUR BARBER</h3>
+            </div>
+            <!-- Kunde inte få till carousel i mobil versionen -->
+            <div class="review">
+                <div class="customer">
+                    <img src="../screenshots/quotes.png" alt="quotes">
+                    <div class="review-move">
+                            <p>Far far away, behind the word</p> 
+                            <p>mountains, far from the countries</p>
+                            <p>Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="customer-image">
+                            <img src="../screenshots/man2.jpg" alt="man2">
+                            <div class="stars">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                            </div>
+                            <h3>Roger Scott</h3>
+                            <h4 class="welcome-c">Customer</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="customer">
+                    <img src="../screenshots/quotes.png" alt="quotes">
+                    <div class="review-move">
+                        <p>Far far away, behind the word</p> 
+                        <p>mountains, far from the countries</p>
+                        <p>Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="customer-image">
+                            <img src="../screenshots/man1.jpg" alt="man1">
+                            <div class="stars">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                            </div>
+                            <h3>Roger Scott</h3>
+                            <h4 class="welcome-c">Customer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer">
+                    <img src="../screenshots/quotes.png" alt="quotes">
+                    <div class="review-move">    
+                        <p>Far far away, behind the word</p> 
+                        <p>mountains, far from the countries</p>
+                        <p>Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="customer-image">
+                            <img src="../screenshots/man3.jpg" alt="man3">
+                            <div class="stars">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                                <img src="../screenshots/black-star-icon.png" alt="star">
+                            </div>
+                            <h3>Roger Scott</h3>
+                            <h4 class="welcome-c">Customer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
+    <footer>
+        <div class="footer-column">
+            <h3>BARBERSHOP</h3>
+            <p>Far far away, behind the word</p> 
+            <p>mountains far from the</p> 
+            <p>countries</p>
+            <a href=""><img src="../screenshots/twitter.png" alt="twitter"></a>
+            <a href=""><img src="../screenshots/facebook.png" alt="facebook"></a>
+            <a href=""><img src="../screenshots/instagram.png" alt="instagram"></a>
+        </div>  
+        <div>
+            <div class="footer-h3">
+                <h3>EXPLORE</h3>
+            </div>
+            <ul class="footer-list">
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="footer-h3">
+                <h3>INFO</h3>
+            </div>
+            <ul class="footer-list">
+                <li><a href="">Join Us</a></li>
+                <li><a href="">Make Appointment</a></li>
+                <li><a href="">Privacy & Policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-last">
+            <h3>HAVE A QUESTION?</h3>
+                <div class="footer-icon">
+                    <img src="../screenshots/book.png" alt="book">
+                </div>
+            <div class="footer-text">
+                <p>203 Fake St.Mountain</p>
+                <p>View, San Francisco,</p>
+                <p>California, USA</p>
+            </div>
+            <div class="footer-phone">
+                <img src="../screenshots/phone.png" alt="phone">
+            </div>
+            <p>+2 392 3929 210</p>
+            <div class="footer-plane">
+                <img src="../screenshots/plane.png" alt="plane">
+            </div>
+            <div class="footer-text">
+                <p>info@yourdomain.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
